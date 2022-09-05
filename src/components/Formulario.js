@@ -21,8 +21,9 @@ function Formulario (){
 
     return (
         <>
-            <h1>Formulario</h1>
-            <form className="row" onSubmit={enviarDatos}>
+            <form className="row col-9 form" onSubmit={enviarDatos}>
+                 <h2 className="row">Formulario normal react</h2>
+
                 <div className="col-md-3">
                     <input 
                         placeholder="Ingresar Nombre"
